@@ -1,0 +1,135 @@
+body {
+    font-family: "Smooch Sans", sans-serif;
+    margin: 0;
+}
+
+/* header stuff here */
+header {
+    background-color: #F9EBF3;
+    padding: 1rem 20px;
+    text-align: center;
+}
+header span {
+    color: #FAC4CE;
+    font-size: 2rem;
+    font-weight: 800;
+}   
+
+/* navigation stuff here */
+nav {
+    background-color: #FAD8B4;
+}
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0 20px;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #F9EBF3;
+    font-weight: 700;
+}
+
+nav li.current a {
+    color: #FAD8B4;
+    background-color: #F9EBF3;
+}
+
+nav li a:hover {
+    color: #F73EAA;
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 20px;
+}
+
+main h1 {
+    color: #F73EAA;
+}
+
+main h2 {
+    color: #FAC4CE;
+    margin-bottom: 0rem;
+}
+
+main h3 {
+    color: #D2EDFA;
+    margin-bottom: 0rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #F9EBF3;
+}
+
+main dl dt {
+    color: #FAD8B4;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color:#333;
+    font-size: .99rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .99rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: black;
+}
+
+main em {
+    font-weight: 300;
+    color: #F73EAA;
+}
+
+main address {
+    font-style: normal;
+    background-color: #CABEFA;
+    padding: .7rem;
+    border-radius: 10px;
+    border: 1px solid #333;
+    width: 200px;
+}
+
+main a {
+    color: #FAC4CE;
+}
+
+main a:hover {
+    color: rgb(242, 119, 232);
+}
+
+/* footer stuff here */
+footer {
+    background-color: #F9EBF3;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: #333;
+}
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
