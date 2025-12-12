@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kylie DeNovellis">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to Golden Hour Coffee, your cozy neighborhood coffee shop. Discover our menu, order online, learn about us, check out upcoming events, join our loyalty program, and find our location.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="04intro.css">
+    <title>Golden Hour Coffee: Home</title>
+</head>
+
+
+
+<body>
+    <!-- start the page head-->
+    <header>
+        <span>Golden Hour Coffee</span>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li class="current"><a href="order.html">Order</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Order Here!</h1>
+
+        <form method="get" class="myForm" action="thankyou.html">
+
+            <fieldset>
+            <legend>Customer Information</legend>
+            <label>Name* <input type="text" name="name" required></label>
+            <label>Email* <input type="email" name="email" required></label>
+            <label>Phone Number* <input type="tel" name="phone number" required placeholder="123-456-7890" ></label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Select Drink</legend>
+                <label>Drink: 
+                <select name="milk">
+                <option value="none">Please Select</option>
+                <option value="latte">Latte</option>
+                <option value="espresso">Espresso</option>
+                <option value="americano">Americano</option>
+                <option value="Macchiato">Macchiato</option>
+                <option value="Cortado">Cortado</option>
+                <option value="Cappuccino">Cappuccino</option>
+                <option value="Flat-White">Flat White</option>
+                </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Select Drink Type</legend>
+                 <label><input type="radio" name="type" value="iced"> Iced</label>
+                 <label><input type="radio" name="type" value="hot"> Hot</label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Select Size</legend>
+                <label><input type="radio" name="size" value="small"> Small (12 oz)</label>
+                 <label><input type="radio" name="size" value="medium"> Medium (16 oz)</label>
+                 <label><input type="radio" name="size" value="large"> Large (20 oz)</label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Extras and Flavors</legend>
+               <label><input type="checkbox" name="extra-shot" value="extra-shot"> Extra Shot
+               </label>
+
+               <label><input type="checkbox" name="whipped-cream" value="whipped-cream"> Whipped Cream
+               </label>
+
+               <label><input type="checkbox" name="cold-foam" value="cold-foam"> Cold Foam
+               </label>
+
+                <label>Syrup Flavor:
+                <select name="flavor">
+                <option value="none">Please Select</option>
+                <option value="no-flavor">No Extra Flavor</option>
+                <option value="vanilla">Vanilla</option>
+                <option value="caramel">Caramel</option>
+                <option value="hazelnut">Hazelnut</option>
+                <option value="pumpkin-spice">Pumpkin Spice</option>
+                </select>
+                </label>
+        
+                <label>Milk Options:
+                <select name="milk">
+                <option value="none">Please Select</option>
+                <option value="oat">Oat</option>
+                <option value="whole">Whole</option>
+                <option value="almond">Almond</option>
+                <option value="two-percent">Two Percent</option>
+                </select>
+                </label>
+            </fieldset>
+
+            <label> Special Requests:
+                <textarea name="special-requests"></textarea>
+            </label>
+
+            <input type="submit" value="Place Order">
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 &bull; Golden Hour Coffee</p>
+
+    </footer>
+</body>
+
+</html>
